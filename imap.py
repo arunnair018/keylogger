@@ -2,8 +2,8 @@ import imaplib
 import email
 
 def get_server():	
-	username = 'arun.kumar@mtech.christuniversity.in'
-	password = '90098920'
+	username = 'email'
+	password = 'password'
 	mail = imaplib.IMAP4_SSL('imap.gmail.com')
 	mail.login(username,password)
 	mail.select("[Gmail]/Drafts")
